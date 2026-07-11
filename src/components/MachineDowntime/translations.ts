@@ -1,0 +1,102 @@
+export const t_downtime = {
+    en: {
+        title: "Machine Downtime Report",
+        reason: "Downtime Reason",
+        actionPlan: "Action Plan",
+        date: "Date",
+        line: "Line",
+        search: "Search",
+        save: "Save",
+        // Table Headers
+        thLine: "Line",
+        thDate: "Date",
+        thWorkOrder: "Work Order",
+        thModel: "Model",
+        thStartTime: "Start Time",
+        thEndTime: "End Time",
+        thDuration: "Duration",
+        thReason: "Reason",
+        thAction: "Action Plan",
+        // Footer & UI
+        totalRecords: "Total records",
+        lastUpdate: "Last updated",
+        loading: "Saving...",
+        placeholderReason: "Select reason...",
+        placeholderAction: "Enter action plan..."
+    },
+    th: {
+        title: "รายงานการหยุดเครื่อง (Downtime)",
+        reason: "เหตุผลการหยุดเครื่อง",
+        actionPlan: "แผนการแก้ไข",
+        date: "วันที่",
+        line: "สายการผลิต (Line)",
+        search: "ค้นหา",
+        save: "บันทึกเหตุผล",
+        // Table Headers
+        thLine: "Line",
+        thDate: "วันที่",
+        thWorkOrder: "Work Order",
+        thModel: "Model",
+        thStartTime: "เวลาเริ่ม",
+        thEndTime: "เวลาสิ้นสุด",
+        thDuration: "ระยะเวลาหยุด",
+        thReason: "เหตุผล",
+        thAction: "แผนการแก้ไข",
+        // Footer & UI
+        totalRecords: "ทั้งหมด",
+        lastUpdate: "อัปเดตล่าสุด",
+        loading: "กำลังบันทึก...",
+        placeholderReason: "เลือกเหตุผล...",
+        placeholderAction: "กรอกแผนการแก้ไข..."
+    },
+    kr: {
+        title: "설비 정지 보고서 (Downtime)",
+        reason: "정지 사유",
+        actionPlan: "조치 계획",
+        date: "날짜",
+        line: "라인",
+        search: "검색",
+        save: "저장",
+        // Table Headers
+        thLine: "라인",
+        thDate: "날짜",
+        thWorkOrder: "작업 지시",
+        thModel: "모델",
+        thStartTime: "시작 시간",
+        thEndTime: "종료 시간",
+        thDuration: "정지 시간",
+        thReason: "사유",
+        thAction: "조치 계획",
+        // Footer & UI
+        totalRecords: "총 건수",
+        lastUpdate: "마지막 업데이트",
+        loading: "저장 중...",
+        placeholderReason: "사유 선택...",
+        placeholderAction: "조치 계획 입력..."
+    },
+    mm: {
+        title: "စက်ရပ်နားမှု အစီရင်ခံစာ (Downtime)",
+        reason: "စက်ရပ်ရသည့်အကြောင်းအရင်း",
+        actionPlan: "ပြင်ဆင်မှု အစီအစဉ်",
+        date: "ရက်စွဲ",
+        line: "လိုင်း",
+        search: "ရှာရန်",
+        save: "သိမ်းဆည်းရန်",
+        // Table Headers
+        thLine: "လိုင်း",
+        thDate: "ရက်စွဲ",
+        thWorkOrder: "Work Order",
+        thModel: "Model",
+        thStartTime: "စတင်ချိန်",
+        thEndTime: "ပြီးဆုံးချိန်",
+        thDuration: "ရပ်နားချိန်",
+        thReason: "အကြောင်းအရင်း",
+        thAction: "ပြင်ဆင်မှု အစီအစဉ်",
+        // Footer & UI
+        totalRecords: "စုစုပေါင်း",
+        lastUpdate: "နောက်ဆုံးပြင်ဆင်ချိန်",
+        loading: "သိမ်းဆည်းနေသည်...",
+        placeholderReason: "အကြောင်းအရင်း ရွေးချယ်ရန်...",
+        placeholderAction: "ပြင်ဆင်မှု အစီအစဉ် ရိုက်ထည့်ရန်..."
+    }
+} as const;
